@@ -132,7 +132,7 @@ jobs:
       fail-fast: false
       matrix:
         flutter-version: ['3.10.0', '3.13.0']
-        os: [ubuntu-latest]
+        os: [ubuntu-latest, flyci-macos-large-latest-m1]
         path: ["tests/bootstrap_project"]
     steps:
       - uses: actions/checkout@v3
@@ -174,7 +174,7 @@ jobs:
       fail-fast: false
       matrix:
         flutter-version: ['3.10.0', '3.13.0']
-        os: [ubuntu-latest]
+        os: [ubuntu-latest, flyci-macos-large-latest-m1]
         path: ["tests/serverpod_cli_e2e_test"]
     steps:
       - uses: actions/checkout@v3
