@@ -2,12 +2,7 @@ name: Serverpod CI
 
 on:
   push:
-    branches:
-      - main
-      - dev
-      - tests
-      - stable-1.0
-      - stable-1.1
+    branches: []
   pull_request:
     branches:
       - main
